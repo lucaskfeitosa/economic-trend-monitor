@@ -1,0 +1,47 @@
+Project Overview:
+
+Projeto desenvolvido com objetivo de analisar os indicadores que refletem a economia brasileira e estimar a evolução de indicadores econômicos.
+
+Economic Indicators:
+
+- Fiscal: gastos públicos, receitas, déficit e dívida.
+- Prices and Currency: inflação e câmbio.
+- Monetary and Credit: juros e crédito.
+- Economic Activity: PIB, produção, comércio e mercado de trabalho.
+- External Sector: comércio exterior e fatores econômicos internacionais.
+
+Data:
+
+Banco Central - séries temporais
+IBGE - indicadores
+Tesouro Nacional - estátisticas fiscais
+Banco Central - Relatório Focus
+
+Analysis and Forecasting:
+
+O sistema obtém os dados econômicos, organiza as séries históricas, analisa o comportamento dos indicadores e tenta estimar valores futuros.
+
+- Trend Analysis: identificar tendências de alta, queda e estabilidade.
+
+- Indicator Comparison: comparar indicadores para investigar possíveis relações entre eles.
+Forecasting: estimar valores futuros de indicadores específicos.
+
+- Model Evaluation: comparar as previsões com os valores que realmente ocorreram para avaliar a precisão dos modelos.
+
+- Scenario Analysis: explorar cenários econômicos possíveis, deixando claras as hipóteses utilizadas e as incertezas.
+
+Development Roadmap:
+
+- Foundation: organizar o projeto e definir a estrutura inicial.
+
+- Data Collection: coletar uma primeira série econômica de uma fonte oficial.
+
+- Data Processing: organizar os dados, tratar valores ausentes e entender frequências, unidades e datas de publicação.
+
+- Multi-indicator Integration: integrar indicadores de diferentes categorias.
+
+- Economic Analysis: implementar análises de tendências e comparações entre indicadores.
+
+- Forecasting: desenvolver e avaliar modelos de previsão para variáveis específicas.
+
+- System Integration: reunir os módulos e apresentar indicadores, análises e previsões em uma interface integrada.
