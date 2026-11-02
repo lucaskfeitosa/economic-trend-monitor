@@ -1,5 +1,8 @@
 from unittest.mock import Mock
 import economic_trend_monitor.data_collection.data_collection as data_collection
+from economic_trend_monitor.pipeline import run_pipeline
+import pytest
+
 
 def test_pipeline(monkeypatch):
     expected_data = [
@@ -16,4 +19,11 @@ def test_pipeline(monkeypatch):
             "get",
             mock_get,
         )
-    pass
+    result = run_pipeline('01/01/2026', '01/02/2026')
+    assert result == pytest.approx(0.515)
+    mock_get.assert_called_once()
+    response.json.assert_called_once()
+
+    
+
+
