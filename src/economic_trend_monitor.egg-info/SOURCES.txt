@@ -13,6 +13,9 @@ src/economic_trend_monitor/data_collection/__init__.py
 src/economic_trend_monitor/data_collection/data_collection.py
 src/economic_trend_monitor/data_processing/__init__.py
 src/economic_trend_monitor/data_processing/data_processing.py
+src/economic_trend_monitor/data_validation/__init__.py
+src/economic_trend_monitor/data_validation/data_validation.py
 tests/test_data_analysis.py
 tests/test_data_collection.py
 tests/test_data_processing.py
+tests/test_pipeline.py

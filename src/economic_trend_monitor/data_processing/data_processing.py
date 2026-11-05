@@ -1,4 +1,3 @@
-from economic_trend_monitor.data_collection.data_collection import get_info_api
 from datetime import datetime
 
 def data_processing(data):
